@@ -63,7 +63,7 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url(image/fondo\ fort.png) no-repeat;
+    background: url(image/header.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -72,13 +72,29 @@ body {
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #101010;
+}
+
+.titleProductos {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.titlePrecio {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
     color: white;
 }
 
-p{
+p {
     margin-bottom: 40px;
     font-size: 18px;
-    color: white;
+    color: #fff;
+    padding: 0 100px;
 }
 
 .btn {
@@ -86,6 +102,7 @@ p{
     margin-top: 15px;
     padding: 10px 40px;
     border: 2px solid #9c27b0;
+    color: #fff;
     text-decoration: none;
     background: #9c27b0;
 }
@@ -104,7 +121,7 @@ p{
 .content {
     height: 50vh;
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -127,7 +144,7 @@ p{
     background: #101010;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0.3 5rem rgba(0, 0, .5) ;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5) ;
     margin: 2rem;
 }
 
@@ -140,6 +157,51 @@ p{
     color: #fff;
     background: #9c27b0;
     font-size: 2rem;
-    margin:1rem 0
+    margin: 1rem 0;
 }
 
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+
+}
+
+.about {
+    background: url(image/costos.jpg); no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contain {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.icons {
+    height: 30px;
+    width: auto;
+    
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+}
